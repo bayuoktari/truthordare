@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Happy+Monkey&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(73, 155, 234, 1);
+}
+.title-section {
+  display: block;
+  margin: 90px auto 30px auto;
+  width: 85%;
+  height: 100px;
+}
+.title-section .title-web {
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 10px;
+  font-family: "Baloo Bhai", cursive;
+}
+.title-section .sub-title {
+  text-align: center;
+  font-size: 1.3em;
+  font-family: "Happy Monkey", cursive;
+}
+.button-section {
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: fit-content;
+  margin-bottom: 50px;
+}
+.button-section #truth,
+.button-section #dare {
+  padding: 30px;
+  width: 180px;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Baloo Bhai", cursive;
+  border-radius: 20px;
+  border: none;
+}
+.button-section #truth {
+  margin-right: 20px;
+  background-color: orchid;
+  color: white;
+}
+.button-section #dare {
+  background-color: crimson;
+  color: white;
+}
+.button-section #truth:hover,
+.button-section #dare:hover {
+  border: 1px solid white;
+  transform: scale(1.09);
+}
+.quest-section {
+  padding-top: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+}
+.quest-section #quest {
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  color: white;
+}
+
+@media (max-width: 767.98px) {
+  .title-section {
+    margin-top: 50px;
+  }
+  .title-section .title-web {
+    font-size: 1.5em;
+  }
+  .title-section .sub-title {
+    font-size: 0.8em;
+  }
+  .button-section {
+    margin-bottom: 25px;
+  }
+  .button-section #truth,
+  .button-section #dare {
+    font-size: 1em;
+    width: 120px;
+    height: 80px;
+    padding: auto;
+  }
+  .quest-section #quest {
+    font-size: 1.3em;
+  }
+  .quest-section {
+    width: 90%;
+  }
+}
